@@ -1,17 +1,17 @@
-# Corrections-d-exo-boucles
+# Corrections d'exo-boucles
 
 This repository contains corrections for various programming exercises. Below are the links to each exercise's solution:
 
-- **Exercice 1:** [linktoexercice](./exer1algo.txt)
-- **Exercice 2:** [linktoexercice](./exer2algo.txt)
-- **Exercice 3:** [linktoexercice](./exer3algo.txt)
-- **Exercice 4:** [linktoexercice](./exer4algo.txt)
-- **Exercice 5:** [linktoexercice](./exer5algo.txt)
-- **Exercice 6:** [linktoexercice](./exer6algo.txt)
-- **Exercice 7:** [linktoexercice](./exer7algo.txt)
-- **Exercice 8:** [linktoexercice](./exer8algo.txt)
-- **Exercice 9:** [linktoexercice](./exer9algo.txt)
-- **Exercice 10:** [linktoexercice](./exer10algo.txt)
+- **Exercice 1:** [linktoexercice](./exer1algo.txt) | [Exo1.pas](./Exo1.pas)
+- **Exercice 2:** [linktoexercice](./exer2algo.txt) | [Exo2.pas](./Exo2.pas)
+- **Exercice 3:** [linktoexercice](./exer3algo.txt) | [Exo3.pas](./Exo3.pas)
+- **Exercice 4:** [linktoexercice](./exer4algo.txt) | [Exo4.pas](./Exo4.pas)
+- **Exercice 5:** [linktoexercice](./exer5algo.txt) | [Exo5.pas](./Exo5.pas)
+- **Exercice 6:** [linktoexercice](./exer6algo.txt) | [Exo6.pas](./Exo6.pas)
+- **Exercice 7:** [linktoexercice](./exer7algo.txt) | [Exo7.pas](./Exo7.pas)
+- **Exercice 8:** [linktoexercice](./exer8algo.txt) | [Exo8.pas](./Exo8.pas)
+- **Exercice 9:** [linktoexercice](./exer9algo.txt) | [Exo9.pas](./Exo9.pas)
+- **Exercice 10:** [linktoexercice](./exer10algo.txt) | [Exo10.pas](./Exo10.pas)
 - **Exercice 11:** [linktoexercice](./exer11algo.txt)
 - **Exercice 12:** [linktoexercice](./exer12algo.txt)
 - **Exercice 13:** [linktoexercice](./exer13algo.txt)
