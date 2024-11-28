@@ -1,0 +1,9 @@
+Algorithme AfficherNombres1a10;
+Var
+    i: entier;
+
+Début
+    Pour i ← 1 à 10 faire
+        Afficher(i);
+    FinPour
+Fin
