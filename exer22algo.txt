@@ -1,0 +1,14 @@
+Algorithme CompterValeursNegatives;
+Var
+    i, n, compteNegatifs: entier;
+
+Début
+    compteNegatifs ← 0;
+    Pour i ← 1 à 10 faire
+        Lire(n);
+        Si n < 0 Alors
+            compteNegatifs ← compteNegatifs + 1;
+        FinSi
+    FinPour
+    Afficher("Le nombre de valeurs négatives est : ", compteNegatifs);
+Fin

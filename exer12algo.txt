@@ -1,0 +1,12 @@
+Algorithme AfficherDiviseurs;
+Var
+    i, n: entier;
+
+Début
+    Lire(n);
+    Pour i ← 1 à n faire
+        Si n mod i = 0 Alors
+            Afficher(i);
+        FinSi
+    FinPour
+Fin

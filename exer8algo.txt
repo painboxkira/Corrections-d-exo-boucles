@@ -1,0 +1,13 @@
+Algorithme SommeHarmonique;
+Var
+    i, N: entier;
+    somme: réel;
+
+Début
+    Lire(N);
+    somme ← 0;
+    Pour i ← 1 à N faire
+        somme ← somme + (1 / i);
+    FinPour
+    Afficher("La somme harmonique est : ", somme);
+Fin

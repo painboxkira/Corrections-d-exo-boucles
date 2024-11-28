@@ -1,0 +1,12 @@
+Algorithme SommeCompteAmal;
+Var
+    age, n, somme: entier;
+
+Début
+    Lire(n);
+    somme ← 0;
+    Pour age ← 1 à n faire
+        somme ← somme + 500 + (3 * age);
+    FinPour
+    Afficher("Amal aura reçu : ", somme, " DH à son ", n, "ᵉ anniversaire");
+Fin

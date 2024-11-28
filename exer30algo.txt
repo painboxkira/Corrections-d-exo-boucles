@@ -1,0 +1,19 @@
+Algorithme EssaisCaractere;
+Var
+    caractere: caractère;
+    essais: entier;
+
+Début
+    essais ← 0;
+    Répéter
+        Lire(caractere);
+        essais ← essais + 1;
+        Si caractere = "0" Alors
+            Afficher("Gagné");
+            Sortir de la boucle;
+        Sinon Si essais = 3 Alors
+            Afficher("Perdu");
+            Sortir de la boucle;
+        FinSi
+    Jusqu'à essais = 3;
+Fin

@@ -1,0 +1,12 @@
+Algorithme Somme5Entiers;
+Var
+    i, n, somme: entier;
+
+Début
+    somme ← 0;
+    Pour i ← 1 à 5 faire
+        Lire(n);
+        somme ← somme + n;
+    FinPour
+    Afficher("La somme des 5 entiers est : ", somme);
+Fin

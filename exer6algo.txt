@@ -1,0 +1,24 @@
+Algorithme MoyenneNotes;
+Var
+    note, somme, nbNotes: réel;
+
+Début
+    somme ← 0;
+    nbNotes ← 0;
+    Répéter
+        Lire(note);
+        Si note ≠ -1 Alors
+            somme ← somme + note;
+            nbNotes ← nbNotes + 1;
+        FinSi
+    Jusqu'à ce que note = -1;
+    Si nbNotes > 0 Alors
+        Si (somme / nbNotes) < 10 Alors
+            Afficher("Ajournée");
+        Sinon
+            Afficher("Admissible");
+        FinSi
+    Sinon
+        Afficher("Aucune note saisie");
+    FinSi
+Fin

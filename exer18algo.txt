@@ -1,0 +1,9 @@
+Algorithme AfficherDe20A1;
+Var
+    i: entier;
+
+Début
+    Pour i ← 20 à 1 par -3 faire
+        Afficher(i);
+    FinPour
+Fin

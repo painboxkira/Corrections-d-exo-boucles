@@ -1,0 +1,15 @@
+Algorithme DemanderNombre;
+Var
+    n: entier;
+
+Début
+    Répéter
+        Lire(n);
+        Si n < 10 Alors
+            Afficher("Plus grand !");
+        Sinon Si n > 20 Alors
+            Afficher("Plus petit !");
+        FinSi
+    Jusqu'à ce que (n ≥ 10) et (n ≤ 20);
+    Afficher("Nombre valide : ", n);
+Fin

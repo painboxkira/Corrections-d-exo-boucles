@@ -1,0 +1,12 @@
+Algorithme SommePuissances10;
+Var
+    i, N, somme: entier;
+
+Début
+    Lire(N);
+    somme ← 0;
+    Pour i ← 0 à N faire
+        somme ← somme + (10 ^ i);
+    FinPour
+    Afficher("La somme des puissances de 10 est : ", somme);
+Fin

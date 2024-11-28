@@ -1,0 +1,15 @@
+Algorithme SommeEntiersPositifs;
+Var
+    n, somme: entier;
+
+Début
+    somme ← 0;
+    Répéter
+        Lire(n);
+        Si n ≥ 0 Alors
+            somme ← somme + n;
+            Afficher("S vaut : ", somme);
+        FinSi
+    Jusqu'à ce que n < 0;
+    Afficher("La somme finale est : ", somme);
+Fin

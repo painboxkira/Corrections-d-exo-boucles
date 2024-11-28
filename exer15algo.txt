@@ -1,0 +1,12 @@
+Algorithme SommeCarresImpairsPour;
+Var
+    i, n, somme: entier;
+
+Début
+    Lire(n);
+    somme ← 0;
+    Pour i ← 0 à n faire
+        somme ← somme + (2 * i + 1)^2;
+    FinPour
+    Afficher("La somme est : ", somme);
+Fin

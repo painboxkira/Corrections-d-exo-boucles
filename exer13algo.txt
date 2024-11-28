@@ -1,0 +1,13 @@
+Algorithme MoisValide;
+Var
+    mois: entier;
+
+Début
+    Répéter
+        Lire(mois);
+        Si (mois < 1) ou (mois > 12) Alors
+            Afficher("Donner un mois valide !");
+        FinSi
+    Jusqu'à ce que (mois ≥ 1) et (mois ≤ 12);
+    Afficher("Vous avez saisi un mois valide :", mois);
+Fin

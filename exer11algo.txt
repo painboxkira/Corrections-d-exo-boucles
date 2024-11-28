@@ -1,0 +1,12 @@
+Algorithme SommeCarresImpairs;
+Var
+    i, n, somme: entier;
+
+Début
+    Lire(n);
+    somme ← 0;
+    Pour i ← 1 à n faire
+        somme ← somme + (2 * i - 1)^2;
+    FinPour
+    Afficher("La somme des carrés des ", n, " premiers impairs est : ", somme);
+Fin

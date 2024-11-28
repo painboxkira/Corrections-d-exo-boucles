@@ -1,0 +1,12 @@
+Algorithme Factorielle;
+Var
+    i, N, fact: entier;
+
+Début
+    Lire(N);
+    fact ← 1;
+    Pour i ← 1 à N faire
+        fact ← fact * i;
+    FinPour
+    Afficher("La factorielle de ", N, " est : ", fact);
+Fin

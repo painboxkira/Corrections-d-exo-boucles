@@ -1,0 +1,12 @@
+Algorithme Afficher10NombresSuivantsTantQue;
+Var
+    i, nombre: entier;
+
+Début
+    Lire(nombre);
+    i ← 1;
+    Tant que i ≤ 10 faire
+        Afficher(nombre + i);
+        i ← i + 1;
+    FinTantQue
+Fin

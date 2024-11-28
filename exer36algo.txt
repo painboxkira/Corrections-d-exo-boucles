@@ -1,0 +1,13 @@
+Algorithme TriangleEtoiles;
+Var
+    i, j, N: entier;
+
+Début
+    Lire(N);
+    Pour i ← N à 1 par -1 faire
+        Pour j ← 1 à i faire
+            Afficher("*", sans retour à la ligne);
+        FinPour
+        Afficher(); // Saut de ligne
+    FinPour
+Fin

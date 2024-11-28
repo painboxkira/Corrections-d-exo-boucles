@@ -1,0 +1,14 @@
+Algorithme SommeImpairs1aN;
+Var
+    i, N, somme: entier;
+
+Début
+    Lire(N);
+    somme ← 0;
+    Pour i ← 1 à N faire
+        Si i mod 2 ≠ 0 Alors
+            somme ← somme + i;
+        FinSi
+    FinPour
+    Afficher("La somme des nombres impairs est : ", somme);
+Fin

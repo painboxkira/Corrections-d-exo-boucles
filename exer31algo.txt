@@ -1,0 +1,16 @@
+Algorithme TriangleIsoscele;
+Var
+    i, j, N: entier;
+
+Début
+    Lire(N);
+    Pour i ← 1 à N faire
+        Pour j ← 1 à (N - i) faire
+            Afficher(" ", sans retour à la ligne);
+        FinPour
+        Pour j ← 1 à (2 * i - 1) faire
+            Afficher("*", sans retour à la ligne);
+        FinPour
+        Afficher(); // Saut de ligne
+    FinPour
+Fin

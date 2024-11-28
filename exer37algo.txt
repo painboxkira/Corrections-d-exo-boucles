@@ -1,0 +1,17 @@
+Algorithme NombresAbondants;
+Var
+    n, i, sommeDiviseurs: entier;
+
+Début
+    Pour n ← 1 à 50 faire
+        sommeDiviseurs ← 0;
+        Pour i ← 1 à n - 1 faire
+            Si n mod i = 0 Alors
+                sommeDiviseurs ← sommeDiviseurs + i;
+            FinSi
+        FinPour
+        Si sommeDiviseurs > n Alors
+            Afficher(n, " est un nombre abondant");
+        FinSi
+    FinPour
+Fin

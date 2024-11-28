@@ -1,0 +1,12 @@
+Algorithme TableProduits;
+Var
+    i, j: entier;
+
+Début
+    Pour i ← 1 à 10 faire
+        Pour j ← 1 à 10 faire
+            Afficher(i * j, sans retour à la ligne);
+        FinPour
+        Afficher(); // Saut de ligne
+    FinPour
+Fin

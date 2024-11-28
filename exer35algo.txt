@@ -1,0 +1,19 @@
+Algorithme CalculerSommeProduitMoyenne;
+Var
+    i, N, nombre: entier;
+    somme, produit, moyenne: réel;
+
+Début
+    Lire(N);
+    somme ← 0;
+    produit ← 1;
+    Pour i ← 1 à N faire
+        Lire(nombre);
+        somme ← somme + nombre;
+        produit ← produit * nombre;
+    FinPour
+    moyenne ← somme / N;
+    Afficher("Somme : ", somme);
+    Afficher("Produit : ", produit);
+    Afficher("Moyenne : ", moyenne);
+Fin

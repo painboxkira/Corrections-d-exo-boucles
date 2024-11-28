@@ -1,0 +1,11 @@
+Algorithme CalculerSomme1a100;
+Var
+    i, somme: entier;
+
+Début
+    somme ← 0;
+    Pour i ← 1 à 100 faire
+        somme ← somme + i;
+    FinPour
+    Afficher("La somme des entiers de 1 à 100 est : ", somme);
+Fin

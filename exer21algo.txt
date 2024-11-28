@@ -1,0 +1,19 @@
+Algorithme MoyenneEntiersPositifs;
+Var
+    note, somme, nbNotes: réel;
+
+Début
+    somme ← 0;
+    nbNotes ← 0;
+    Répéter
+        Lire(note);
+        Si note ≠ -1 Alors
+            somme ← somme + note;
+            nbNotes ← nbNotes + 1;
+        FinSi
+    Jusqu'à ce que note = -1;
+    Si nbNotes > 0 Alors
+        Afficher("La moyenne est : ", somme / nbNotes);
+    Sinon
+        Afficher("Aucune note saisie");
+Fin

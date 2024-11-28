@@ -1,0 +1,12 @@
+Algorithme SommeEntiersJusquaN;
+Var
+    i, nombre, somme: entier;
+
+Début
+    Lire(nombre);
+    somme ← 0;
+    Pour i ← 1 à nombre faire
+        somme ← somme + i;
+    FinPour
+    Afficher("La somme est : ", somme);
+Fin

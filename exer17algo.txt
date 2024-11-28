@@ -1,0 +1,15 @@
+Algorithme PopulationAgadirMarrakech;
+Var
+    popMarrakech, popAgadir, annee: entier;
+
+Début
+    popMarrakech ← 1000000;
+    popAgadir ← 500000;
+    annee ← 0;
+    Tant que popAgadir ≤ popMarrakech faire
+        popMarrakech ← popMarrakech + 50000;
+        popAgadir ← popAgadir + (popAgadir * 8 / 100);
+        annee ← annee + 1;
+    FinTantQue
+    Afficher("La population d'Agadir dépassera celle de Marrakech dans ", annee, " ans");
+Fin

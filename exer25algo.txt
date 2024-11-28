@@ -1,0 +1,12 @@
+Algorithme CalculerPuissance;
+Var
+    base, exponent, resultat, i: entier;
+
+Début
+    Lire(base, exponent);
+    resultat ← 1;
+    Pour i ← 1 à exponent faire
+        resultat ← resultat * base;
+    FinPour
+    Afficher("Le résultat de ", base, " puissance ", exponent, " est : ", resultat);
+Fin

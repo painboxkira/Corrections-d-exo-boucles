@@ -1,0 +1,19 @@
+Algorithme VerifierNombrePremier;
+Var
+    n, i: entier;
+    estPremier: booléen;
+
+Début
+    Lire(n);
+    estPremier ← Vrai;
+    Pour i ← 2 à n - 1 faire
+        Si n mod i = 0 Alors
+            estPremier ← Faux;
+            Sortir de la boucle;
+        FinSi
+    FinPour
+    Si estPremier Et n > 1 Alors
+        Afficher(n, " est un nombre premier");
+    Sinon
+        Afficher(n, " n'est pas un nombre premier");
+Fin

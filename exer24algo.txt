@@ -1,0 +1,23 @@
+Algorithme VerifierNombresAmicaux;
+Var
+    n1, n2, sommeDiviseurs1, sommeDiviseurs2, i: entier;
+
+Début
+    Lire(n1, n2);
+    sommeDiviseurs1 ← 0;
+    sommeDiviseurs2 ← 0;
+    Pour i ← 1 à n1 - 1 faire
+        Si n1 mod i = 0 Alors
+            sommeDiviseurs1 ← sommeDiviseurs1 + i;
+        FinSi
+    FinPour
+    Pour i ← 1 à n2 - 1 faire
+        Si n2 mod i = 0 Alors
+            sommeDiviseurs2 ← sommeDiviseurs2 + i;
+        FinSi
+    FinPour
+    Si sommeDiviseurs1 = n2 Et sommeDiviseurs2 = n1 Alors
+        Afficher(n1, " et ", n2, " sont des nombres amicaux");
+    Sinon
+        Afficher(n1, " et ", n2, " ne sont pas des nombres amicaux");
+Fin

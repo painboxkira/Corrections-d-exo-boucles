@@ -1,0 +1,13 @@
+Algorithme SommeChiffres;
+Var
+    n, somme: entier;
+
+Début
+    Lire(n);
+    somme ← 0;
+    Tant que n > 0 faire
+        somme ← somme + (n mod 10);
+        n ← n div 10;
+    FinTantQue
+    Afficher("Somme des chiffres : ", somme);
+Fin

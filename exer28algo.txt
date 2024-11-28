@@ -1,0 +1,17 @@
+Algorithme VerifierNombreParfait;
+Var
+    n, i, somme: entier;
+
+Début
+    Lire(n);
+    somme ← 0;
+    Pour i ← 1 à n - 1 faire
+        Si n mod i = 0 Alors
+            somme ← somme + i;
+        FinSi
+    FinPour
+    Si somme = n Alors
+        Afficher(n, " est un nombre parfait");
+    Sinon
+        Afficher(n, " n'est pas un nombre parfait");
+Fin

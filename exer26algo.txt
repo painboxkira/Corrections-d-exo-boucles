@@ -1,0 +1,13 @@
+Algorithme PremierDernierChiffre;
+Var
+    n, premier, dernier: entier;
+
+Début
+    Lire(n);
+    dernier ← n mod 10;
+    Tant que n ≥ 10 faire
+        n ← n div 10;
+    FinTantQue
+    premier ← n;
+    Afficher("Premier chiffre : ", premier, ", Dernier chiffre : ", dernier);
+Fin

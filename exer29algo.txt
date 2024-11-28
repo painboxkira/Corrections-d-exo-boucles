@@ -1,0 +1,22 @@
+Algorithme VerifierNombreFort;
+Var
+    n, i, sommeFact: entier;
+    fact: entier;
+
+Début
+    Lire(n);
+    sommeFact ← 0;
+    Tant que n > 0 faire
+        i ← n mod 10;
+        fact ← 1;
+        Pour j ← 1 à i faire
+            fact ← fact * j;
+        FinPour
+        sommeFact ← sommeFact + fact;
+        n ← n div 10;
+    FinTantQue
+    Si sommeFact = n Alors
+        Afficher("Le nombre est fort");
+    Sinon
+        Afficher("Le nombre n'est pas fort");
+Fin
